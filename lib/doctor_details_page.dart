@@ -54,12 +54,12 @@ class _DoctorDetailState extends State<DoctorDetailPage> {
                       bottomRight: Radius.circular(30))),
               child: Container(
                 margin: EdgeInsets.only(left: 30, bottom: 30),
-                child: Row(
+                child: Wrap(
                   children: [
                     Container(
                       margin: EdgeInsets.only(bottom: 20),
                       child: Image.asset(
-                        "assets/dr_1.png",
+                        "assets/dr_10.png",
                       ),
                     ),
                     Container(
