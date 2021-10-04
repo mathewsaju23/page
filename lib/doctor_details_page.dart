@@ -114,7 +114,7 @@ class _DoctorDetailState extends State<DoctorDetailPage> {
             Container(
               margin: EdgeInsets.only(left: 20, top: 30),
               child: Text(
-                'April 2020',
+                'October 2021',
                 style: TextStyle(
                   color: Color(0xff363636),
                   fontSize: 25,
@@ -129,14 +129,14 @@ class _DoctorDetailState extends State<DoctorDetailPage> {
               child: ListView(
                 scrollDirection: Axis.horizontal,
                 children: [
-                  demoDates("Mon", "21", true),
-                  demoDates("Tue", "22", false),
-                  demoDates("Wed", "23", false),
-                  demoDates("Thur", "24", false),
-                  demoDates("Fri", "25", false),
-                  demoDates("Sat", "26", false),
-                  demoDates("Sun", "27", false),
-                  demoDates("Mon", "28", false),
+                  demoDates("Mon", "4", true),
+                  demoDates("Tue", "5", false),
+                  demoDates("Wed", "6", false),
+                  demoDates("Thur", "7", false),
+                  demoDates("Fri", "8", false),
+                  demoDates("Sat", "9", false),
+                  demoDates("Sun", "10", false),
+                  demoDates("Mon", "11", false),
                 ],
               ),
             ),
