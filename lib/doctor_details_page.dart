@@ -46,12 +46,13 @@ class _DoctorDetailState extends State<DoctorDetailPage> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
-              height: 200,
+              height: 160,
+              width: 1000,
               decoration: BoxDecoration(
                   color: Color(0xff053F5E),
                   borderRadius: BorderRadius.only(
-                      bottomLeft: Radius.circular(30),
-                      bottomRight: Radius.circular(30))),
+                      bottomLeft: Radius.circular(100),
+                      bottomRight: Radius.circular(50))),
               child: Container(
                 margin: EdgeInsets.only(left: 30, bottom: 30),
                 child: Wrap(
@@ -63,7 +64,7 @@ class _DoctorDetailState extends State<DoctorDetailPage> {
                       ),
                     ),
                     Container(
-                      margin: EdgeInsets.only(left: 20),
+                      margin: EdgeInsets.only(left: 30),
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.start,
